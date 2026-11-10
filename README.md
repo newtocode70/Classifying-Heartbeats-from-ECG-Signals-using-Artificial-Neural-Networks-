@@ -1,4 +1,4 @@
-# ECG Heartbeat Classification with a Neural Network
+# ECG Heartbeat Classification using an Artificial Neural Network
 
 This project develops a machine learning pipeline for classifying ECG heartbeat signals into five classes using a neural network built from scratch with PyTorch. The system processes a 187-sample heartbeat waveform and predicts the corresponding class: Normal (N), Supraventricular (S), Ventricular (V), Fusion (F), or Unknown/Paced (Q).
 
@@ -24,7 +24,7 @@ This project uses the MIT-BIH ECG Heartbeat Categorization dataset, which is pub
 
 ### Files
 
-The dataset is expected to be placed in the `data/` directory:
+The dataset is placed in the `data/` directory:
 
 - `data/mitbih_train.csv` — training samples
 - `data/mitbih_test.csv` — hold-out test samples
